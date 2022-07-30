@@ -1,0 +1,119 @@
+body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/837/636/972/programming-web-development-code-wallpaper-preview.jpg);
+
+}
+body hr{
+    color: white;
+}
+
+/* bunner */
+main .card-img-overlay{
+    padding-left: 400px;
+    margin-top: 200px;
+    color: rgb(247, 238, 238);
+    font-size: xx-large;
+    font-style: normal;
+
+}
+main .card-img-overlay .card-text2{
+    color: rgb(255, 94, 94);
+    padding-left: 30px;
+}
+/* About */
+.col h4 ,strong{
+    color: white;
+}
+.text-light{
+    font-style: italic;
+}
+.bg-image{
+    padding-left: 250px;
+    margin-top: 100px;
+}
+.text1{
+    margin-top: 150px;
+}
+/* Heading */
+.h11{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+}
+/* Services */
+.serv .card{
+    width: 300px;
+    background-color: rgb(69, 60, 60);
+    color: white;
+    justify-content: center;
+    
+}
+.serv{
+    transition: 0.5s;
+}
+.serv div:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    background-color: gray;
+}
+.ss{
+    padding-left: 400px;
+}
+/* project */
+
+.col1 .card{
+    
+    width: 330px;
+    background-color:rgb(60, 58, 58);
+    color: white;
+   
+}
+.row .col1 {
+    padding-left: 70px;
+}
+.col1{
+    transition: 0.5s;
+}
+.col1 div:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    background-color: gray;
+}
+/* My skills */
+.counter{
+    background-image: url(https://media3.giphy.com/media/1oF1KAEYvmXBMo6uTS/giphy.gif);
+    background-size: cover;
+}
+.progress{
+    width: 40%;
+    
+    
+}
+.counter{
+    margin-top: 20px;
+    padding-left: 550px;
+}
+.counter .h11{
+padding-right: 500px;
+}
+
+/* link scroll */
+a:link{
+text-decoration: none;
+
+}
+/* Contact */
+.contact{
+    background-image: url(https://media3.giphy.com/media/1oF1KAEYvmXBMo6uTS/giphy.gif);
+    background-size: cover;
+}
+.resume-box{
+    color: rgb(48, 43, 43);
+    background-image: url(https://img.freepik.com/free-photo/closeup-concrete-wall-texture-background_1017-24490.jpg?w=2000);
+}
+.contact{
+    padding-left: 450px;
+}
+.h111{
+    padding-right: 400px;
+}
