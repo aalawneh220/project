@@ -1,24 +1,63 @@
 body {
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/837/636/972/programming-web-development-code-wallpaper-preview.jpg);
-
+    background-image: url(https://www.forteconcept.no/wp-content/uploads/2020/01/back-wallpaper-2014_044625307.jpg);
+background-size: cover;
 }
 body hr{
     color: white;
 }
-
+.nav{
+    background-image: url(https://as2.ftcdn.net/v2/jpg/01/45/25/65/1000_F_145256571_b6x5oMr4d9re08VblYMkZ5O8GnVX7DpY.jpg);
+    
+}
+header{
+    width: 100%;
+}
+.nav-link{
+    width: 150px;
+    font-display: none;  
+    
+}
+ul li a{
+    text-align: center;
+}
+ul li a:hover{
+color: rgb(255, 94, 94) !important;
+}
 /* bunner */
 main .card-img-overlay{
-    padding-left: 400px;
-    margin-top: 200px;
+    text-align: center;
+    margin-top: 150px;
     color: rgb(247, 238, 238);
     font-size: xx-large;
     font-style: normal;
+    
 
 }
+.card-img-overlay {
+width: 75%;
+height: 100px;
+position: relative;
+animation-name: example;
+animation-duration: 6s;
+animation-iteration-count: 1 ;
+animation-fill-mode: forwards;
+}
+@keyframes example {
+
+    from {
+        left: -1000px;
+    }
+    to{
+        left: 0px;
+    }
+  }
 main .card-img-overlay .card-text2{
     color: rgb(255, 94, 94);
     padding-left: 30px;
+
+    
 }
+
 /* About */
 .col h4 ,strong{
     color: white;
@@ -27,25 +66,31 @@ main .card-img-overlay .card-text2{
     font-style: italic;
 }
 .bg-image{
-    padding-left: 250px;
+    /* padding-left: 250px; */
+    text-align: center;
     margin-top: 100px;
+    
+}
+.img-fluid{
+     border-radius: 50%;
 }
 .text1{
     margin-top: 150px;
 }
 /* Heading */
 .h11{
-    color: white;
+    color: rgb(255, 94, 94);
     text-align: center;
     font-size: xx-large;
-    font-style: oblique;
+    font-style: normal;
 }
 /* Services */
 .serv .card{
     width: 300px;
-    background-color: rgb(69, 60, 60);
+    background-color: rgb(255, 94, 94);
     color: white;
-    justify-content: center;
+    /* justify-content: center; */
+    
     
 }
 .serv{
@@ -58,18 +103,21 @@ main .card-img-overlay .card-text2{
 }
 .ss{
     padding-left: 400px;
+    align-items: center;
 }
 /* project */
 
 .col1 .card{
     
-    width: 330px;
-    background-color:rgb(60, 58, 58);
+    width: 300px;
+    background-color:rgb(44, 42, 73);
     color: white;
    
 }
 .row .col1 {
-    padding-left: 70px;
+    padding-left: 50px;
+text-align: center;
+
 }
 .col1{
     transition: 0.5s;
@@ -77,24 +125,14 @@ main .card-img-overlay .card-text2{
 .col1 div:hover{
     transform: scale(1.1);
     text-decoration: underline;
-    background-color: gray;
+    background-color: rgb(255, 94, 94);
 }
 /* My skills */
 .counter{
-    background-image: url(https://media3.giphy.com/media/1oF1KAEYvmXBMo6uTS/giphy.gif);
     background-size: cover;
-}
-.progress{
-    width: 40%;
-    
-    
-}
-.counter{
-    margin-top: 20px;
-    padding-left: 550px;
-}
-.counter .h11{
-padding-right: 500px;
+    margin: 20px auto;
+    width: 50%;
+
 }
 
 /* link scroll */
@@ -102,18 +140,62 @@ a:link{
 text-decoration: none;
 
 }
-/* Contact */
-.contact{
-    background-image: url(https://media3.giphy.com/media/1oF1KAEYvmXBMo6uTS/giphy.gif);
-    background-size: cover;
-}
 .resume-box{
-    color: rgb(48, 43, 43);
-    background-image: url(https://img.freepik.com/free-photo/closeup-concrete-wall-texture-background_1017-24490.jpg?w=2000);
+    color: rgb(255, 255, 255);
 }
-.contact{
-    padding-left: 450px;
+.icon{
+    size: 100%;
 }
-.h111{
-    padding-right: 400px;
-}
+/* About bootstrap */
+/* ................................. */
+
+.horizontal-timeline .items {
+    border-top: 3px solid #e9ecef;
+    }
+    
+    .horizontal-timeline .items .items-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+    }
+    
+    .horizontal-timeline .items .items-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #dee2e6;
+    top: 0;
+    }
+    
+    .horizontal-timeline .items .items-list .event-date {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    right: 0;
+    width: 75px;
+    margin: 0 auto;
+    font-size: .9rem;
+    padding-top: 8px;
+    }
+    
+    @media (min-width: 1140px) {
+    .horizontal-timeline .items .items-list {
+    display: inline-block;
+    width: 24%;
+    padding-top: 45px;
+    }
+    
+    .horizontal-timeline .items .items-list .event-date {
+    top: -40px;
+    }
+    }
+
+    /* @media screen and (max-width: 480px){
+       main .card-img-overlay{
+            display: grid;
+            width: 100%;
+            padding-right: 400px;
+        }
+    } */
